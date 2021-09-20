@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		4764349A26F8696100B13296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4764349926F8696100B13296 /* AppDelegate.swift */; };
 		4764349C26F8696100B13296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4764349B26F8696100B13296 /* SceneDelegate.swift */; };
-		4764349E26F8696100B13296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4764349D26F8696100B13296 /* ViewController.swift */; };
 		476434A126F8696100B13296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4764349F26F8696100B13296 /* Main.storyboard */; };
 		476434A326F8696500B13296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476434A226F8696500B13296 /* Assets.xcassets */; };
 		476434A626F8696500B13296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476434A426F8696500B13296 /* LaunchScreen.storyboard */; };
 		476434B126F8696600B13296 /* banglalink_test_myblTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476434B026F8696600B13296 /* banglalink_test_myblTests.swift */; };
 		476434BC26F8696600B13296 /* banglalink_test_myblUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476434BB26F8696600B13296 /* banglalink_test_myblUITests.swift */; };
+		476434D026F86AD300B13296 /* MyBlLightLoadUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476434CF26F86AD300B13296 /* MyBlLightLoadUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		4764349626F8696100B13296 /* banglalink.test-mybl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "banglalink.test-mybl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4764349926F8696100B13296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4764349B26F8696100B13296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4764349D26F8696100B13296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		476434A026F8696100B13296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		476434A226F8696500B13296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476434A526F8696500B13296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		476434B726F8696600B13296 /* banglalink.test-myblUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "banglalink.test-myblUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		476434BB26F8696600B13296 /* banglalink_test_myblUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = banglalink_test_myblUITests.swift; sourceTree = "<group>"; };
 		476434BD26F8696600B13296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476434CF26F86AD300B13296 /* MyBlLightLoadUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlLightLoadUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				4764349926F8696100B13296 /* AppDelegate.swift */,
 				4764349B26F8696100B13296 /* SceneDelegate.swift */,
-				4764349D26F8696100B13296 /* ViewController.swift */,
+				476434A426F8696500B13296 /* LaunchScreen.storyboard */,
 				4764349F26F8696100B13296 /* Main.storyboard */,
 				476434A226F8696500B13296 /* Assets.xcassets */,
-				476434A426F8696500B13296 /* LaunchScreen.storyboard */,
 				476434A726F8696500B13296 /* Info.plist */,
+				476434CF26F86AD300B13296 /* MyBlLightLoadUrl.swift */,
 			);
 			path = "banglalink.test-mybl";
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4764349E26F8696100B13296 /* ViewController.swift in Sources */,
+				476434D026F86AD300B13296 /* MyBlLightLoadUrl.swift in Sources */,
 				4764349A26F8696100B13296 /* AppDelegate.swift in Sources */,
 				4764349C26F8696100B13296 /* SceneDelegate.swift in Sources */,
 			);
